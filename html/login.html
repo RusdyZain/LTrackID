@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+   <link rel="stylesheet" href="/css/styleLogin.css">
+
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+   <title>Sign Up | Log In</title>
+</head>
+
+<body>
+   <nav>
+      <input type="checkbox" id="check">
+      <label for="check" class="checkbtn">
+         <i class="fas fa-bars"></i>
+      </label>
+      <label class="logo">LTrackID</label>
+      <div class="container">
+         <div class="search_box">
+            <form>
+               <button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+               <input type="text" placeholder="Search...">
+               <button type="submit"><i class="fa fa-microphone" aria-hidden="true"></i></button>
+            </form>
+         </div>
+      </div>
+      <ul>
+         <li><a href="http://127.0.0.1:5500/html/home.html">Home</a></li>
+         <li><a href="http://127.0.0.1:5500/html/destination.html">Destination</a></li>
+         <li><a href="http://127.0.0.1:5500/html/track.html">Track</a></li>
+         <li><a href="http://127.0.0.1:5500/html/destination.html#restaurants">Facility</a></li>
+         <li><a href="http://127.0.0.1:5500/html/chat.html">Community</a></li>
+         <li><a class="active" href="http://127.0.0.1:5500/html/login.html">Login</a></li>
+      </ul>
+   </nav>
+   <div class="wrapper">
+      <div class="title-text">
+         <div class="title login">
+            LOGIN
+         </div>
+         <div class="title signup">
+            SINGUP
+         </div>
+      </div>
+      <div class="form-container">
+         <div class="slide-controls">
+            <input type="radio" name="slide" id="login" checked>
+            <input type="radio" name="slide" id="signup">
+            <label for="login" class="slide login">Login</label>
+            <label for="signup" class="slide signup">SignUp</label>
+            <div class="slider-tab"></div>
+         </div>
+         <div class="form-inner">
+            <form action="#" class="login">
+               <div class="field">
+                  <input type="text" placeholder="Email Address" required>
+               </div>
+               <div class="field">
+                  <input type="password" placeholder="Password" required>
+               </div>
+               <div class="pass-link">
+                  <a href="#">Reset password?</a>
+               </div>
+               <div class="field btn">
+                  <div class="btn-layer"></div>
+                  <input type="submit" value="Login">
+               </div>
+               <div class="signup-link">
+                  Don't Have Account? <a href="">Create A New</a>
+               </div>
+            </form>
+            <form action="#" class="signup">
+               <div class="field">
+                  <input type="text" placeholder="Email Address" required>
+               </div>
+               <div class="field">
+                  <input type="password" placeholder="Password" required>
+               </div>
+               <div class="field">
+                  <input type="password" placeholder="Confirm Password" required>
+               </div>
+               <div class="field btn">
+                  <div class="btn-layer"></div>
+                  <input type="submit" value="SignUp">
+               </div>
+            </form>
+         </div>
+      </div>
+   </div>
+   <script src="/js/scriptLogin.js"></script>
+</body>
+
+</html>
