@@ -1,4 +1,4 @@
-<h2>Optimalkan Pengalaman Wisata Anda dengan LTrackID: Temukan Jalur Terbaik, Info Cuaca Terkini, dan Rekomendasi Jumlah Rombongan!</h2>
+<h2>Optimalkan Pengalaman Wisata Anda dengan Website LTrackID: Temukan Jalur Terbaik, Info Cuaca Terkini, dan Rekomendasi Jumlah Rombongan!</h2>
 
 **Fitur Utama:**
 
